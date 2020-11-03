@@ -1,7 +1,7 @@
 version: "3"
 services:
   node:
-    image: USER/Your-Pre-Built-Image
+    image:  sivakumarsagar/nginx:latest
     deploy:
       resources:
         limits:
